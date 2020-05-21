@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="3338" started-at="2020-05-19T09:06:13Z" finished-at="2020-05-19T09:06:16Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:justRunner.TestRunner@6e1567f1]" name="feature" class="justRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="My Selenium Project" duration-ms="3338" started-at="2020-05-19T09:06:13Z" finished-at="2020-05-19T09:06:16Z">
+      <class name="justRunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:justRunner.TestRunner@6e1567f1]" name="setUpClass" is-config="true" duration-ms="541" started-at="2020-05-19T17:06:12Z" finished-at="2020-05-19T17:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:justRunner.TestRunner@6e1567f1]" name="feature" duration-ms="3252" started-at="2020-05-19T17:06:13Z" description="Runs Cucumber Feature via TestNG" data-provider="features" finished-at="2020-05-19T17:06:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test datatable using poi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:justRunner.TestRunner@6e1567f1]" name="tearDownClass" is-config="true" duration-ms="270" started-at="2020-05-19T17:06:16Z" finished-at="2020-05-19T17:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- justRunner.TestRunner -->
+    </test> <!-- My Selenium Project -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

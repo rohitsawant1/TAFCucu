@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.217477">
+<testcase classname="Test datatable using poi" name="Verify my Ex login" time="2.156245">
+<system-out><![CDATA[Given Get the test data alone "src/main/resources/Data/personData.xlsx" "Sheet1" "T1".passed
+When my login "<username>" and "<password>".................................passed
+Then my details.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test datatable using poi" name="Verify my Ex login 2" time="1.061232">
+<system-out><![CDATA[Given Get the test data alone "src/main/resources/Data/personData.xlsx" "Sheet1" "T2".passed
+When my login "<username>" and "<password>".................................passed
+Then my details.............................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

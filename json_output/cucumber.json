@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Initialize td",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2119521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.testStart()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify my Ex login",
+        "description": "",
+        "id": "test-datatable-using-poi;verify-my-ex-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1651942720,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 501800739,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# add a step to provide test data xls and sheet name"
+              }
+            ],
+            "line": 12,
+            "name": "Get the test data alone \"src/main/resources/Data/personData.xlsx\" \"Sheet1\" \"T1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "src/main/resources/Data/personData.xlsx",
+                  "offset": 25
+                },
+                {
+                  "val": "Sheet1",
+                  "offset": 67
+                },
+                {
+                  "val": "T1",
+                  "offset": 76
+                }
+              ],
+              "location": "TestDataDriveusingExcel_OutlineExamples.get_the_test_data_alone(String,String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288573,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "my login \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 10
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 27
+                }
+              ],
+              "location": "TestDataDriveusingExcel_OutlineExamples.my_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93794,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "my details",
+            "match": {
+              "location": "TestDataDriveusingExcel_OutlineExamples.my_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Dataex"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Initialize td",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 48683,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.testStart()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify my Ex login",
+        "description": "",
+        "id": "test-datatable-using-poi;verify-my-ex-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1060690850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login.testEnd()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 153828,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "# add a step to provide test data xls and sheet name"
+              }
+            ],
+            "line": 12,
+            "name": "Get the test data alone \"src/main/resources/Data/personData.xlsx\" \"Sheet1\" \"T2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "src/main/resources/Data/personData.xlsx",
+                  "offset": 25
+                },
+                {
+                  "val": "Sheet1",
+                  "offset": 67
+                },
+                {
+                  "val": "T2",
+                  "offset": 76
+                }
+              ],
+              "location": "TestDataDriveusingExcel_OutlineExamples.get_the_test_data_alone(String,String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245403,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "my login \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 10
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 27
+                }
+              ],
+              "location": "TestDataDriveusingExcel_OutlineExamples.my_login_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93155,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "my details",
+            "match": {
+              "location": "TestDataDriveusingExcel_OutlineExamples.my_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@Dataex"
+          }
+        ]
+      }
+    ],
+    "name": "Test datatable using poi",
+    "description": "",
+    "id": "test-datatable-using-poi",
+    "keyword": "Feature",
+    "uri": "testDataDrive.feature"
+  }
+]
